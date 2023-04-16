@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hojin-Resume/static/css/main.76aa1c88.css",
+    "main.js": "/Hojin-Resume/static/js/main.8c19a480.js",
+    "static/media/pokemon-battles.png": "/Hojin-Resume/static/media/pokemon-battles.5107318ad6c6b65a1d69.png",
+    "static/media/s3.PNG": "/Hojin-Resume/static/media/s3.0ff230fc8564f95bea73.PNG",
+    "static/media/servista.PNG": "/Hojin-Resume/static/media/servista.eca26910422af8212253.PNG",
+    "static/media/hweeter-photo.png": "/Hojin-Resume/static/media/hweeter-photo.843c460a0c017352e221.png",
+    "static/media/url.jpg": "/Hojin-Resume/static/media/url.0708cbd5cf568f77d9f7.jpg",
+    "static/media/hojin-resume.pdf": "/Hojin-Resume/static/media/hojin-resume.5fa67a37c6e90ef2d3dd.pdf",
+    "static/media/intropage.jpg": "/Hojin-Resume/static/media/intropage.18702cdc49b53619778b.jpg",
+    "static/media/todo.jpg": "/Hojin-Resume/static/media/todo.b2dc38eabdbbf33a6c7f.jpg",
+    "index.html": "/Hojin-Resume/index.html",
+    "static/media/logo.svg": "/Hojin-Resume/static/media/logo.537add793a58478a552ac7fc1079a824.svg",
+    "main.76aa1c88.css.map": "/Hojin-Resume/static/css/main.76aa1c88.css.map",
+    "main.8c19a480.js.map": "/Hojin-Resume/static/js/main.8c19a480.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76aa1c88.css",
+    "static/js/main.8c19a480.js"
+  ]
+}
