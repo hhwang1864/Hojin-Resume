@@ -2,13 +2,13 @@ import React from 'react'
 import { FaBootstrap } from 'react-icons/fa'
 import { SiFlutter } from 'react-icons/si'
 
-import resume from '../assets/hojin-resume.pdf'
+import resume from '../assets/portfolioImages/hojin-resume.pdf'
 
 const About = () => {
   return (
     <div className='container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100'>
       <p className="text-center lead m-4">
-        I'm a full stack developer who Loves to create responsive/interactive applications. My knowledge of frameworks/Languages are:  ReactJS, JavaScript, HTML5, CSS3, Tailwind, React-Native, Typescript and Ruby. 
+        I'm a full stack developer who Loves to create responsive/interactive applications. My knowledge of frameworks/Languages are:  ReactJS, JavaScript, HTML5, CSS3, Tailwind, React-Native, Typescript and Ruby.
         I Also am capable of Creating fast No SQL Responsive Websites using Firebase, AWS.
         {/* Apart form this, i'm learning flutter for my final year project (FYP) */}
       </p>

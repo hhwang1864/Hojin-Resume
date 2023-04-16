@@ -8,10 +8,10 @@ const Contact = () => {
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault()
-    
+
         emailjs
             // service id, template id and your public key, get these by registering on EmailJs
-          .sendForm('service_k0yf07i', 'template_d3i9txs', form.current, 'Dm939mnlPcJjrKRMC')
+          .sendForm('service_qkef16q','template_4dlgyxf', form.current, 'euPBhLTx3yiL4IetZ')
           .then(
             () => {
               alert('Message successfully sent!')
@@ -63,7 +63,7 @@ const Contact = () => {
                     </li>
                 </ul>
             </form>
-        </div>  
+        </div>
         <div>
             <Player
               src='https://assets10.lottiefiles.com/packages/lf20_u25cckyh.json'

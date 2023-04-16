@@ -1,7 +1,6 @@
- 
-import RestCountries from "./assets/portfolioImages/restcountries.jpg";
-import SpaceTourism from "./assets/portfolioImages/spacetourism.jpg";
-import Advice from "./assets/portfolioImages/advice.jpg";
+
+import HweeterPhoto from "./assets/portfolioImages/hweeter-photo.png";
+import PokemonBattles from "./assets/portfolioImages/pokemon-battles.png";
 import Page from "./assets/portfolioImages/intropage.jpg";
 import AWS from "./assets/portfolioImages/s3.PNG";
 import Todo from "./assets/portfolioImages/todo.jpg"
@@ -10,29 +9,29 @@ import Todo from "./assets/portfolioImages/todo.jpg"
 
 import Servista from './assets/portfolioImages/servista.PNG'
 import landingPage from './assets/portfolioImages/url.jpg'
- 
+
 const ProjectsData = [
-   
+
   {
     id: "Hweeter",
-    img: RestCountries,
+    img: HweeterPhoto,
     name: "Hweeter. (Twitter clone + news API)",
     stack: ["< News API /> ", "< React.js /> ", "<Firebase>"],
-    live: "https://rest-countries-api-rimshub.vercel.app/",
-    source: "https://github.com/rimshub/rest-countries-api",
-    description:  
+    live: "https://hhwang1864.github.io/Hwitter/",
+    source: "https://github.com/hhwang1864/Hwitter/",
+    description:
         "Responsive website which integrates News API to pull Current News data. When user is not logged in news can be viewed. When logged in, User can Update, Delete, Post, Edit their unique comments through No SQL of Google's Firebase.",
   },
 
   {
-    id: "Tic-Tac-Toe",
-    img: SpaceTourism,
-    name: "Tic- Tac- Toe",
-    stack: ["< HTML />", "< CSS3 />"],
-    live: "https://react-space-tourism-website-alpha.vercel.app/",
-    source: "https://github.com/rimshub/react-space-tourism-website",
-    description:  
-        "One of first designs of My coding. Two players are able to vs each other or play with AI.",
+    id: "Pokemon Battles",
+    img: PokemonBattles,
+    name: "Pokemon Battles",
+    stack: ["< HTML />", "< Express.js />", "< CSS />"],
+    live: "https://github.com/tinaaiscoding/pokemon-game",
+    source: "https://github.com/tinaaiscoding/pokemon-game",
+    description:
+        "Group project where users are allowed to catch and fight through battling pokemons. Be the Pokemon Master and catch 'em ALL!",
   },
   {
     id: "cloud-storage",
@@ -41,7 +40,7 @@ const ProjectsData = [
     stack: ["< AWS S3 /> " , "< JavaScript /> " , "< Express.js />"],
     live: "",
     source: "https://github.com/rimshub/cloud-storage-s3",
-    description:  
+    description:
         "Store images directly to Amazon S3 from user application, retrieve images from S3 bucket from anywhere on the web, and reduce the load on server",
   },
 
@@ -52,7 +51,7 @@ const ProjectsData = [
     stack: ["< JavaScript />  ", "< React Native />"],
     live: "https://rimshub.github.io/JavaScript-Todo-App/",
     source: "https://github.com/rimshub/JavaScript-Todo-App",
-    description:  
+    description:
         "Responsive JS react native todo app with color theme switcher. Xcode were used for JAVA sources. ",
   },
 
@@ -63,14 +62,14 @@ const ProjectsData = [
     stack: ["< React.js />   ", "< CSS3 />"],
     live: "https://rimshub.github.io/figma-design-to-reactjs/",
     source: "https://github.com/rimshub/figma-design-to-reactjs",
-    description:  
+    description:
         "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
-  },  
-   
+  },
+
 ];
 
 const InprogressProjectsData = [
-   
+
   {
     id: "servista",
     img: Servista,
@@ -78,7 +77,7 @@ const InprogressProjectsData = [
     stack: ["< Flutter />", "< NodeJS />", "< Blockchain />"],
     live: "",
     source: "https://github.com/rimshub/servista",
-    description:  
+    description:
         "A cross-platform app that connects local service providers with customers. The goal is to maximize the income of local professionals while ensuring the security and comfort of customers",
   },
 
@@ -89,7 +88,7 @@ const InprogressProjectsData = [
     stack: ["< JavaScript />", "< NodeJS />"],
     live: "",
     source: "https://github.com/rimshub/URL-shortening-API-landing-page",
-    description:  
+    description:
         "Integrate with the shrtcode URL shortening API and play with browser storage in this landing page challenge",
   },
 
